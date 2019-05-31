@@ -18,9 +18,9 @@ for port in out_ports:
     print(port)
 
 #This is the keyboard
-midi_in.open_port(0)
+midi_in.open_port(1)
 #This is the Op-1
-midi_out.open_port(1)
+midi_out.open_port(2)
 
 #This controls whether or not the volume knob sets the velocity
 velocity_control = False
